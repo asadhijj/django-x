@@ -1,0 +1,13 @@
+{% extends '_base.html' %}
+
+{% block content %}
+
+<h2>{{ cars.type }}</h2>
+<h2>Purchaser: {{ cars.purchaser }}</h2>
+<h4>model: {{cars.car_model}}</h4>
+
+<button><a href="{% url 'cars-update' cars.pk %}">+ Update Car</a></button>
+<button><a href="{% url 'cars-delete' cars.pk %}">+ Delete Car</a></button>
+
+
+{% endblock content %}
