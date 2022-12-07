@@ -1,7 +1,7 @@
 > A batteries-included Django starter project. To learn more try the books [Django for Beginners](https://djangoforbeginners.com), [Django for APIs](https://djangoforapis.com), and [Django for Professionals](https://djangoforprofessionals.com).
 
 ## 🚀 Features
-
+- wo
 - Django 4.1 & Python 3.10
 - Install via [Pip](https://pypi.org/project/pip/), [Pipenv](https://pypi.org/project/pipenv/), or [Docker](https://www.docker.com/)
 - User log in/out, sign up, password reset via [django-allauth](https://github.com/pennersr/django-allauth)
